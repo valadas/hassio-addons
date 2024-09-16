@@ -1,0 +1,15 @@
+name: "PantryPad"
+version: "0.1.0.19"
+slug: "pantrypad"
+description: "PantryPad Add-On"
+arch: 
+    - amd64
+    - armv7
+    - aarch64
+    - i386
+    - armhf
+ingress: true
+ports:
+    8099/tcp: 8099
+image: ghcr.io/valadas/pantrypad
+  
