@@ -1,5 +1,5 @@
 name: "PantryPad"
-version: "0.1.2-beta.2"
+version: "pantrypad:0.1.2-42"
 slug: "pantrypad"
 description: "PantryPad Add-On"
 startup: services
