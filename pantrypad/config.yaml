@@ -1,15 +1,17 @@
 name: "PantryPad"
-version: "0.1.1.3"
+version: "0.1.2-beta.2"
 slug: "pantrypad"
 description: "PantryPad Add-On"
-arch: 
-    - amd64
-    - armv7
-    - aarch64
-    - i386
-    - armhf
+startup: services
+boot: auto
+# webui: http://[HOST]:[PORT:8099]
+arch:
+  - amd64
+  - armv7
+  - aarch64
+  - i386
+  - armhf
 ingress: true
-ports:
-    8099/tcp: 8099
+ingress_port: 5000
+ports: {}
 image: ghcr.io/valadas/pantrypad
-  
