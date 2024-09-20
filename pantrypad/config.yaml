@@ -11,4 +11,4 @@ arch:
   - armhf
 image: ghcr.io/valadas/pantrypad
 ports:
-  - 8080/tcp: 5000
+  - 5000/tcp: 8080
