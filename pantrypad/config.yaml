@@ -15,9 +15,9 @@ ingress: true
 ingress_stream: true
 ingress_port: 8080
 ports:
-  - 8080
-  - 8099
-  - 8443
+  - 8080/tcp: null
+  - 8099/tcp: null
+  - 8443/tcp: null
 map:
   - ssl
 image: ghcr.io/valadas/pantrypad
