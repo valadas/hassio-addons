@@ -4,17 +4,11 @@ slug: "pantrypad"
 description: "PantryPad Add-On"
 startup: services
 boot: auto
-# webui: http://[HOST]:[PORT:8099]
+webui: http://[HOST]:[PORT:8080]
 arch:
   - amd64
   - armv7
   - aarch64
   - i386
   - armhf
-ports:
-  - 8080/tcp: null
-  - 8099/tcp: null
-  - 8443/tcp: null
-map:
-  - ssl
 image: ghcr.io/valadas/pantrypad
