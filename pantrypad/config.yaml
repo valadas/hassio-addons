@@ -13,6 +13,5 @@ startup: services
 image: ghcr.io/valadas/pantrypad
 ingress: true
 ingress_streaming: true
-ingress_port: 8080
 ports:
-  8080/tcp: 8000
+  8080/tcp: 8099
