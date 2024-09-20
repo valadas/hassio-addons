@@ -12,6 +12,6 @@ arch:
   - i386
   - armhf
 ingress: true
-ingress_port: 5000
+ingress_port: 8080
 ports: {}
 image: ghcr.io/valadas/pantrypad
