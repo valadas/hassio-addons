@@ -1,6 +1,6 @@
 name: "PantryPad"
 description: "PantryPad Add-On"
-version: "0.1.5-beta.2"
+version: "0.1.5-beta.3"
 slug: "pantrypad"
 init: false
 arch:
